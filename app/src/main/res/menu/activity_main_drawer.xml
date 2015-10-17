@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:menuCategory="container"
+        android:title="some">
+        <menu>
+            <item
+                android:id="@+id/action_stu_login"
+                android:icon="@android:drawable/ic_input_add"
+                android:title="Faculty login">
+
+            </item>
+
+            <item
+                android:id="@+id/action_exit"
+                android:icon="@android:drawable/ic_delete"
+                android:title="Exit">
+
+            </item>
+        </menu>
+    </item>
+
+</menu>
